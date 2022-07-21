@@ -1,6 +1,4 @@
 import cv2
-from os import mkdir
-from time import time
 
 
 def draw_outline(corner1, corner2, corner3, corner4, side1, side2, side3, side4, frames, outlinelength, texture,
@@ -45,6 +43,8 @@ def draw_outline(corner1, corner2, corner3, corner4, side1, side2, side3, side4,
 
 
 def main():
+    from os import mkdir
+    from time import time
     t = cv2.imread('texture.png')
     o = cv2.imread('outline.png')
     animation_frames = len(t) // len(t[0])
