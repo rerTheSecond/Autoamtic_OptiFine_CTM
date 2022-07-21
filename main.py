@@ -66,7 +66,7 @@ def main():
                 result = draw_outline(bool(int(lines[i][0])), bool(int(lines[i][1])), bool(int(lines[i][2])),
                                       bool(int(lines[i][3])), bool(int(lines[i][4])), bool(int(lines[i][5])),
                                       bool(int(lines[i][6])), bool(int(lines[i][7])), animation_frames, w, t, o)
-                cv2.imwrite(f"result/{str(i)}.png", result)
+                cv2.imwrite(f"result/{i}.png", result)
         input(f"Finished in {int(1000*(time() - start))} milliseconds. Press ENTER to leave.")
     else:
         input('Width of texture.png and outline.png does not match.\nPress ENTER to leave')
