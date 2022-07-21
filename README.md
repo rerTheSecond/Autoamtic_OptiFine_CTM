@@ -13,4 +13,4 @@ after the script prompts you to do so.
 
 The connected_tile.txt file just stores the data needed to draw the outline properly.
 
-Discord: rer#2486
+Discord: rer#2222
